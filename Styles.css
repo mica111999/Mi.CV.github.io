@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+    height: 60vh;
+}
+
+section#hero{
+    background-color: rgb(179, 164, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase ;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size:x-large;
+    text-transform:initial;
+}
+
+.projects-list{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+}
+
+.projects-detail{
+    border: 10px solid rgb(185, 139, 197);
+    border-radius: 15px;
+    width: 600px;
+    margin: 35px;
+}
+
+.projects-detail img{
+    width: 320px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: rgb(215, 229, 250);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: 50px;
+}
+
+nav ul li{
+    margin-left: 11px;
+    margin-right: 35px;
+    padding: 10px 10px;
+    background-color: rgb(240, 247, 181);
+}
+
+.id h2{
+    font-size: medium;
+    justify-content: end;
+}
+form{
+    margin: 35px;
+    width: 45px;
+    text-transform: uppercase;
+    justify-content:end;
+}
+
+button{
+    width: 100px;
+    margin: 12px;
+    border: 11px;
+    background-color: rgb(180, 180, 180);
+    text-decoration: solid;
+    height: 15px;
+}
+
+.section#projects h2{
+    font-size: 3rem;
+    text-transform: initial;
+}
